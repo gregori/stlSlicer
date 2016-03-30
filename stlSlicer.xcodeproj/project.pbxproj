@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		5B528C15191064DC00BAD098 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B528C14191064DC00BAD098 /* main.cpp */; };
 		5B528C17191064DC00BAD098 /* stlSlicer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B528C16191064DC00BAD098 /* stlSlicer.1 */; };
+		5BB19A87191686660082392A /* STLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19A85191686660082392A /* STLParser.cpp */; };
+		5BB19A8B191686980082392A /* Slicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19A89191686980082392A /* Slicer.cpp */; };
+		5BB19A90191689A70082392A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19A8E191689A70082392A /* Timer.cpp */; };
+		5BB19A931916A5D40082392A /* SimpleSlicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19A911916A5D40082392A /* SimpleSlicer.cpp */; };
+		5BB19A961916AC8F0082392A /* SortedSlicer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19A941916AC8F0082392A /* SortedSlicer.cpp */; };
+		5BB19AB81917F5D20082392A /* Contour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AA01917F5D20082392A /* Contour.cpp */; };
+		5BB19AB91917F5D20082392A /* FacetComparer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AA21917F5D20082392A /* FacetComparer.cpp */; };
+		5BB19ABA1917F5D20082392A /* Geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AA51917F5D20082392A /* Geometry.cpp */; };
+		5BB19ABB1917F5D20082392A /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AA81917F5D20082392A /* Mesh.cpp */; };
+		5BB19ABC1917F5D20082392A /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AAA1917F5D20082392A /* Plane.cpp */; };
+		5BB19ABD1917F5D20082392A /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AAC1917F5D20082392A /* Point.cpp */; };
+		5BB19ABE1917F5D20082392A /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AAE1917F5D20082392A /* Rect.cpp */; };
+		5BB19ABF1917F5D20082392A /* Slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AB01917F5D20082392A /* Slice.cpp */; };
+		5BB19AC01917F5D20082392A /* Solid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AB21917F5D20082392A /* Solid.cpp */; };
+		5BB19AC11917F5D20082392A /* SortedMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AB41917F5D20082392A /* SortedMesh.cpp */; };
+		5BB19AC21917F5D20082392A /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BB19AB61917F5D20082392A /* Triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +44,40 @@
 		5B528C11191064DC00BAD098 /* stlSlicer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stlSlicer; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B528C14191064DC00BAD098 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5B528C16191064DC00BAD098 /* stlSlicer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = stlSlicer.1; sourceTree = "<group>"; };
+		5BB19A85191686660082392A /* STLParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = STLParser.cpp; sourceTree = "<group>"; };
+		5BB19A86191686660082392A /* STLParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = STLParser.h; sourceTree = "<group>"; };
+		5BB19A89191686980082392A /* Slicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Slicer.cpp; sourceTree = "<group>"; };
+		5BB19A8A191686980082392A /* Slicer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Slicer.h; sourceTree = "<group>"; };
+		5BB19A8E191689A70082392A /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		5BB19A8F191689A70082392A /* Timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Timer.h; sourceTree = "<group>"; };
+		5BB19A911916A5D40082392A /* SimpleSlicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleSlicer.cpp; sourceTree = "<group>"; };
+		5BB19A921916A5D40082392A /* SimpleSlicer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSlicer.h; sourceTree = "<group>"; };
+		5BB19A941916AC8F0082392A /* SortedSlicer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortedSlicer.cpp; sourceTree = "<group>"; };
+		5BB19A951916AC8F0082392A /* SortedSlicer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = SortedSlicer.h; sourceTree = "<group>"; };
+		5BB19AA01917F5D20082392A /* Contour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Contour.cpp; path = stlSlicer/Contour.cpp; sourceTree = "<group>"; };
+		5BB19AA11917F5D20082392A /* Contour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contour.h; path = stlSlicer/Contour.h; sourceTree = "<group>"; };
+		5BB19AA21917F5D20082392A /* FacetComparer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FacetComparer.cpp; path = stlSlicer/FacetComparer.cpp; sourceTree = "<group>"; };
+		5BB19AA31917F5D20082392A /* FacetComparer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacetComparer.h; path = stlSlicer/FacetComparer.h; sourceTree = "<group>"; };
+		5BB19AA41917F5D20082392A /* geometries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geometries.h; path = stlSlicer/geometries.h; sourceTree = "<group>"; };
+		5BB19AA51917F5D20082392A /* Geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Geometry.cpp; path = stlSlicer/Geometry.cpp; sourceTree = "<group>"; };
+		5BB19AA61917F5D20082392A /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = stlSlicer/Geometry.h; sourceTree = "<group>"; };
+		5BB19AA71917F5D20082392A /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; name = glm; path = stlSlicer/glm; sourceTree = "<group>"; };
+		5BB19AA81917F5D20082392A /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mesh.cpp; path = stlSlicer/Mesh.cpp; sourceTree = "<group>"; };
+		5BB19AA91917F5D20082392A /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mesh.h; path = stlSlicer/Mesh.h; sourceTree = "<group>"; };
+		5BB19AAA1917F5D20082392A /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plane.cpp; path = stlSlicer/Plane.cpp; sourceTree = "<group>"; };
+		5BB19AAB1917F5D20082392A /* Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plane.h; path = stlSlicer/Plane.h; sourceTree = "<group>"; };
+		5BB19AAC1917F5D20082392A /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Point.cpp; path = stlSlicer/Point.cpp; sourceTree = "<group>"; };
+		5BB19AAD1917F5D20082392A /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Point.h; path = stlSlicer/Point.h; sourceTree = "<group>"; };
+		5BB19AAE1917F5D20082392A /* Rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rect.cpp; path = stlSlicer/Rect.cpp; sourceTree = "<group>"; };
+		5BB19AAF1917F5D20082392A /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rect.h; path = stlSlicer/Rect.h; sourceTree = "<group>"; };
+		5BB19AB01917F5D20082392A /* Slice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Slice.cpp; path = stlSlicer/Slice.cpp; sourceTree = "<group>"; };
+		5BB19AB11917F5D20082392A /* Slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Slice.h; path = stlSlicer/Slice.h; sourceTree = "<group>"; };
+		5BB19AB21917F5D20082392A /* Solid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Solid.cpp; path = stlSlicer/Solid.cpp; sourceTree = "<group>"; };
+		5BB19AB31917F5D20082392A /* Solid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Solid.h; path = stlSlicer/Solid.h; sourceTree = "<group>"; };
+		5BB19AB41917F5D20082392A /* SortedMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SortedMesh.cpp; path = stlSlicer/SortedMesh.cpp; sourceTree = "<group>"; };
+		5BB19AB51917F5D20082392A /* SortedMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortedMesh.h; path = stlSlicer/SortedMesh.h; sourceTree = "<group>"; };
+		5BB19AB61917F5D20082392A /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle.cpp; path = stlSlicer/Triangle.cpp; sourceTree = "<group>"; };
+		5BB19AB71917F5D20082392A /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = stlSlicer/Triangle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +94,8 @@
 		5B528C08191064DC00BAD098 = {
 			isa = PBXGroup;
 			children = (
+				5BB19AC31917F5E90082392A /* geometries */,
+				5BB19AA71917F5D20082392A /* glm */,
 				5B528C13191064DC00BAD098 /* stlSlicer */,
 				5B528C12191064DC00BAD098 /* Products */,
 			);
@@ -60,10 +112,50 @@
 		5B528C13191064DC00BAD098 /* stlSlicer */ = {
 			isa = PBXGroup;
 			children = (
+				5BB19A85191686660082392A /* STLParser.cpp */,
+				5BB19A86191686660082392A /* STLParser.h */,
 				5B528C14191064DC00BAD098 /* main.cpp */,
 				5B528C16191064DC00BAD098 /* stlSlicer.1 */,
+				5BB19A89191686980082392A /* Slicer.cpp */,
+				5BB19A8A191686980082392A /* Slicer.h */,
+				5BB19A8E191689A70082392A /* Timer.cpp */,
+				5BB19A8F191689A70082392A /* Timer.h */,
+				5BB19A911916A5D40082392A /* SimpleSlicer.cpp */,
+				5BB19A921916A5D40082392A /* SimpleSlicer.h */,
+				5BB19A941916AC8F0082392A /* SortedSlicer.cpp */,
+				5BB19A951916AC8F0082392A /* SortedSlicer.h */,
 			);
 			path = stlSlicer;
+			sourceTree = "<group>";
+		};
+		5BB19AC31917F5E90082392A /* geometries */ = {
+			isa = PBXGroup;
+			children = (
+				5BB19AA01917F5D20082392A /* Contour.cpp */,
+				5BB19AA11917F5D20082392A /* Contour.h */,
+				5BB19AA21917F5D20082392A /* FacetComparer.cpp */,
+				5BB19AA31917F5D20082392A /* FacetComparer.h */,
+				5BB19AA41917F5D20082392A /* geometries.h */,
+				5BB19AA51917F5D20082392A /* Geometry.cpp */,
+				5BB19AA61917F5D20082392A /* Geometry.h */,
+				5BB19AA81917F5D20082392A /* Mesh.cpp */,
+				5BB19AA91917F5D20082392A /* Mesh.h */,
+				5BB19AAA1917F5D20082392A /* Plane.cpp */,
+				5BB19AAB1917F5D20082392A /* Plane.h */,
+				5BB19AAC1917F5D20082392A /* Point.cpp */,
+				5BB19AAD1917F5D20082392A /* Point.h */,
+				5BB19AAE1917F5D20082392A /* Rect.cpp */,
+				5BB19AAF1917F5D20082392A /* Rect.h */,
+				5BB19AB01917F5D20082392A /* Slice.cpp */,
+				5BB19AB11917F5D20082392A /* Slice.h */,
+				5BB19AB21917F5D20082392A /* Solid.cpp */,
+				5BB19AB31917F5D20082392A /* Solid.h */,
+				5BB19AB41917F5D20082392A /* SortedMesh.cpp */,
+				5BB19AB51917F5D20082392A /* SortedMesh.h */,
+				5BB19AB61917F5D20082392A /* Triangle.cpp */,
+				5BB19AB71917F5D20082392A /* Triangle.h */,
+			);
+			name = geometries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +209,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB19ABD1917F5D20082392A /* Point.cpp in Sources */,
+				5BB19A931916A5D40082392A /* SimpleSlicer.cpp in Sources */,
+				5BB19ABF1917F5D20082392A /* Slice.cpp in Sources */,
+				5BB19A87191686660082392A /* STLParser.cpp in Sources */,
+				5BB19AB81917F5D20082392A /* Contour.cpp in Sources */,
+				5BB19A8B191686980082392A /* Slicer.cpp in Sources */,
+				5BB19ABC1917F5D20082392A /* Plane.cpp in Sources */,
+				5BB19ABE1917F5D20082392A /* Rect.cpp in Sources */,
+				5BB19ABB1917F5D20082392A /* Mesh.cpp in Sources */,
 				5B528C15191064DC00BAD098 /* main.cpp in Sources */,
+				5BB19A961916AC8F0082392A /* SortedSlicer.cpp in Sources */,
+				5BB19AC21917F5D20082392A /* Triangle.cpp in Sources */,
+				5BB19AB91917F5D20082392A /* FacetComparer.cpp in Sources */,
+				5BB19ABA1917F5D20082392A /* Geometry.cpp in Sources */,
+				5BB19AC11917F5D20082392A /* SortedMesh.cpp in Sources */,
+				5BB19A90191689A70082392A /* Timer.cpp in Sources */,
+				5BB19AC01917F5D20082392A /* Solid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +335,7 @@
 				5B528C1C191064DC00BAD098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
